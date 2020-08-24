@@ -4,13 +4,13 @@ view: 2
 title: Starting the blog
 date: 2020-08-24T13:50:29.810Z
 authors:
-  - Ronald Hatcher
+  - admin
 header:
   caption: ""
   image: ""
 featured: true
 image:
-  filename: allie-i3nd16f56ko-unsplash.jpg
+  filename: featured.jpg
   preview_only: false
   focal_point: center
 ---
