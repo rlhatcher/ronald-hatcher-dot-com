@@ -296,3 +296,5 @@ plugins_js  = []
 ############################
 [icon.pack]
   ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
+i_am_a_sponsor = true
