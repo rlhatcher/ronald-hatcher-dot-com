@@ -1,7 +1,7 @@
 ---
 draft: false
 view: 2
-title: Rocket Nosecones
+title: Rocket Nose Cone Construction
 date: 2020-09-17T13:50:29.810Z
 authors:
   - admin
