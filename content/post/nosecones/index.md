@@ -25,4 +25,4 @@ The notebook below describes the various types of nose cones and the math behind
 
 ## Nosecone Designs
 
-<iframe width="100%" height="80%" name="iframe" src="/files/nosecones.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+<iframe width="100%" height="80%" name="iframe" src="/files/Nosecones.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
