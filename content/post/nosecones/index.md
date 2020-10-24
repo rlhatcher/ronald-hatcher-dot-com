@@ -21,8 +21,10 @@ I have been working on nose cone construction for quite a while. With the advent
 I have also been working on optimising designs for altitude attempts, which requires precision (and understanding) of the various types of nose cone designs. I'll write a subsequent post about the journey of the altitude attempt - once it's completed!
 
 The notebook below describes the various types of nose cones and the math behind them where you can play around with some of the parameters. The complete notebook is available on Binder
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gist/rlhatcher/37373ca0b4575689ed87d5e92498f69d/master?filepath=nosecones.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gist/rlhatcher/37373ca0b4575689ed87d5e92498f69d/master?filepath=elliptical.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gist/rlhatcher/e5e37a7af36690eb10d0a2bd1f619917/master)
 
 ## Nosecone Designs
 
-<iframe width="100%" height="80%" name="iframe" src="/files/Nosecones.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+<iframe width="100%" height="80%" name="iframe" src="/files/elliptical.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
