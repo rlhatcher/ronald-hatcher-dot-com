@@ -13140,31 +13140,162 @@ div#notebook {
 </div>
 
   </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Elliptical">Elliptical<a class="anchor-link" href="#Elliptical">&#182;</a></h1><p>This shape is popular in subsonic flight (such as model rocketry) due to the blunt nose and tangent base and are generally considered superior for model rocketry altitude optimisation use. This is not a shape normally found in professional rocketry, which almost always flies at much higher velocities where other designs are more suitable.</p>
+<p>The profile is defined as $y=R{\sqrt  {1-{x^{2} \over L^{2}}}}$ 
+If $R = L$, this is a hemisphere.</p>
+<table>
+<thead><tr>
+<th>Description</th>
+<th>Variable</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outside radius</td>
+<td>oRadius</td>
+<td>$R$</td>
+</tr>
+<tr>
+<td>Inside radius</td>
+<td>iRadius</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Nosecone length</td>
+<td>nLength</td>
+<td>$L$</td>
+</tr>
+<tr>
+<td>Shoulder Length</td>
+<td>sLength</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">plot_elliptical</span><span class="p">(</span><span class="n">ro</span><span class="p">,</span> <span class="n">ri</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
-    <span class="n">fig</span><span class="p">,</span> <span class="n">axe</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="n">num</span><span class="o">=</span><span class="s2">&quot;Elliptical&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="k">def</span> <span class="nf">plot_elliptical</span><span class="p">(</span><span class="n">oRadius</span><span class="p">,</span> <span class="n">iRadius</span><span class="p">,</span> <span class="n">nLength</span><span class="p">,</span> <span class="n">sLength</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">axe</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
     <span class="n">axe</span><span class="o">.</span><span class="n">set_aspect</span><span class="p">(</span><span class="s2">&quot;equal&quot;</span><span class="p">)</span>
 
-    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">l</span><span class="p">),</span> <span class="nb">int</span><span class="p">(</span><span class="n">l</span><span class="o">*</span><span class="mi">5</span><span class="p">))</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">nLength</span><span class="p">),</span> <span class="nb">int</span><span class="p">(</span><span class="n">nLength</span><span class="o">*</span><span class="mi">5</span><span class="p">))</span>
 
     <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">axe</span><span class="o">.</span><span class="n">lines</span><span class="p">]</span>
  
-    <span class="n">axe</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">ro</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="n">l</span><span class="o">**</span><span class="mi">2</span><span class="p">)),</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;C0&#39;</span><span class="p">)</span>
-    <span class="n">axe</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="n">l</span><span class="p">,</span> <span class="o">-</span><span class="n">s</span><span class="p">,</span> <span class="o">-</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">ri</span><span class="p">,</span> <span class="n">ri</span><span class="p">,</span> <span class="n">ro</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;C0&#39;</span><span class="p">)</span>
+    <span class="n">axe</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">oRadius</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="n">nLength</span><span class="o">**</span><span class="mi">2</span><span class="p">)),</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;C0&#39;</span><span class="p">)</span>
+    <span class="n">axe</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="n">nLength</span><span class="p">,</span> <span class="o">-</span><span class="n">sLength</span><span class="p">,</span> <span class="o">-</span><span class="n">sLength</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">iRadius</span><span class="p">,</span> <span class="n">iRadius</span><span class="p">,</span> <span class="n">oRadius</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;C0&#39;</span><span class="p">)</span>
 
 <span class="n">interact</span><span class="p">(</span><span class="n">plot_elliptical</span><span class="p">,</span>
-        <span class="n">ro</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">6</span><span class="p">),</span> 
-        <span class="n">ri</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">5</span><span class="p">),</span>
-        <span class="n">l</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">30</span><span class="p">),</span> 
-        <span class="n">s</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+        <span class="n">oRadius</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mf">24.79</span><span class="p">),</span> 
+        <span class="n">iRadius</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mf">24.13</span><span class="p">),</span>
+        <span class="n">nLength</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">90</span><span class="p">),</span> 
+        <span class="n">sLength</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="p">);</span>   
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Parabolic">Parabolic<a class="anchor-link" href="#Parabolic">&#182;</a></h1><p>This nose shape is not the blunt shape that is envisioned when people commonly refer to a "parabolic" nose cone. The parabolic series nose shape is generated by rotating a segment of a parabola around a line parallel to its latus rectum. This construction is similar to that of the tangent ogive, except that a parabola is the defining shape rather than a circle. Just as it does on an ogive, this construction produces a nose shape with a sharp tip. For the blunt shape typically associated with a parabolic nose, see power series below. (The parabolic shape is also often confused with the elliptical shape.)</p>
+<p>For $0 \leq K^\prime \leq 1 :  y=R \Biggl({2({x \over L})-K^\prime({x \over L})^{2} \over 2-K^\prime}\Biggr)$</p>
+<p>$K^\prime$ can vary anywhere between $0$ and $1$, but the most common values used for nose cone shapes are:</p>
+<table>
+<thead><tr>
+<th>Parabola Type</th>
+<th>$K^\prime$ Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cone</td>
+<td>$0$</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>$\frac {1}{2}$</td>
+</tr>
+<tr>
+<td>Three Quarter</td>
+<td>$3 \over 4$</td>
+</tr>
+<tr>
+<td>Full</td>
+<td>$1$</td>
+</tr>
+</tbody>
+</table>
+<p>For the case of the full parabola $(K^\prime = 1)$ the shape is tangent to the body at its base, and the base is on the axis of the parabola. Values of $K^\prime \lt 1$ result in a slimmer shape, whose appearance is similar to that of the secant ogive. The shape is no longer tangent at the base, and the base is parallel to, but offset from, the axis of the parabola.</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="nbinteract-hide_in
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="k">def</span> <span class="nf">plot_parabolic</span><span class="p">(</span><span class="n">oRadius</span><span class="p">,</span> <span class="n">iRadius</span><span class="p">,</span> <span class="n">nLength</span><span class="p">,</span> <span class="n">sLength</span><span class="p">,</span> <span class="n">K</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">axp</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+    <span class="n">axp</span><span class="o">.</span><span class="n">set_aspect</span><span class="p">(</span><span class="s2">&quot;equal&quot;</span><span class="p">)</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">nLength</span><span class="p">))</span>
+
+    <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">axp</span><span class="o">.</span><span class="n">lines</span><span class="p">]</span>
+    
+    <span class="n">axp</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">oRadius</span><span class="o">*</span><span class="p">(((</span><span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">/</span><span class="n">nLength</span><span class="p">))</span><span class="o">-</span><span class="p">(</span><span class="n">K</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">/</span><span class="n">nLength</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">-</span><span class="n">K</span><span class="p">)),</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;C0&#39;</span><span class="p">)</span>
+    <span class="n">axp</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="n">sLength</span> <span class="o">+</span> <span class="n">nLength</span><span class="p">,</span> <span class="n">sLength</span> <span class="o">+</span> <span class="n">nLength</span><span class="p">,</span> <span class="n">nLength</span><span class="p">,</span> <span class="n">nLength</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">iRadius</span><span class="p">,</span> <span class="n">iRadius</span><span class="p">,</span> <span class="n">oRadius</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;C0&#39;</span><span class="p">)</span>
+
+<span class="n">interact</span><span class="p">(</span><span class="n">plot_parabolic</span><span class="p">,</span>
+        <span class="n">oRadius</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mf">24.79</span><span class="p">),</span> 
+        <span class="n">iRadius</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mf">24.13</span><span class="p">),</span>
+        <span class="n">nLength</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">90</span><span class="p">),</span> 
+        <span class="n">sLength</span><span class="o">=</span><span class="n">FloatText</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">),</span>
+        <span class="n">K</span><span class="o">=</span><span class="n">FloatSlider</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">value</span><span class="o">=.</span><span class="mi">75</span><span class="p">)</span>
 <span class="p">);</span>   
 </pre></div>
 
