@@ -60,6 +60,7 @@ Electronics used consist of commerciallly available flight computers. Specifical
 The overall design is provided here
 
 ![model](sim.jpg)
+
 ### Airframe
 
 The airframe is constructed from cardboard postal tubes 10" diameter and 3mm wall thickness. These tubes are wrapped in two layers of XXX fibreglass. The design uses two sections of airframe coupled together with an avionics bay. The aft section of the airframe is slotted to allow for "through the wall" mounting of the fins
@@ -75,3 +76,11 @@ The complete fin assembly is then lamiminated with fibreglass. The Vacuum baggin
 The intial design for the fins is provided here.
 
 ![cad fins](fins_fusion.png)
+
+### Motor
+
+The design uses a 98mm motor mount. Initial flights will use a 75mm CTI motor adapted to 98mm
+
+### Simulations
+
+Initial simulations are provided here
