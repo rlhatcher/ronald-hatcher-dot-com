@@ -20,7 +20,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include rocketry, software architecture.
+bio: My research interests include rocketry, robotics and software architecture.
 
 interests:
 - Amateur Rocketry
