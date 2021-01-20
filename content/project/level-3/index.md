@@ -46,20 +46,20 @@ This document describes the approach and detailed design of a full-scale model o
 
 ## Construction Approach
 
-The overall construction follows standard parctice and materials currently in ue for high-power amateur rockets. The main materials consist of:
+The overall construction follows standard practice and materials currently in ue for high-power amateur rockets. The main materials consist of:
 
 * Cardboard tubes
 * Fibreglass composites
 * Carbonfibre composites
 * Epoxy adhesives
 
-Electronics used consist of commerciallly available flight computers. Specifically the Egg Timer Proton.
+Electronics used consist of commercially available flight computers. Specifically the Egg Timer Proton.
 
 ### Overview
 
 The overall design is provided here
 
-![model](sim.jpg)
+![model](sim.png)
 
 The design is based on original drawings
 
@@ -73,15 +73,17 @@ The airframe is constructed from cardboard postal tubes 10" diameter and 3mm wal
 
 ### Fins
 
-The fins are constructed using a core comprised of 3mm plywood laminted with carbon fibre. This core is "sandwiched" on both sides with 3mm plywood shaped to the profile of the original fin design shown here.
+The fins are constructed using a core comprised of 3mm plywood laminated with carbon fibre. This core is "sandwiched" on both sides with 3mm plywood shaped to the profile of the original fin design shown here.
 
+The complete fin assembly is then laminated with fibreglass. The Vacuum bagging technique is used for all fin lamination to ensure optimal epoxy/cloth ratios.
 
-
-The complete fin assembly is then lamiminated with fibreglass. The Vacuum bagging technique is used for all fin lamination to ensure optimal epoxy/cloth ratios.
-
-The intial design for the fins is provided here.
+The initial design for the fins is provided here.
 
 ![cad fins](fins_fusion.png)
+
+### Nocecone
+
+The nose cone is constructed using the method of shaping a foam core and wrapping with layers of fibreglass.
 
 ### Motor
 

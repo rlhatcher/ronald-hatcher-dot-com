@@ -27,9 +27,22 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+A very common practice for building recovery harnesses in high power rocketry involves various knots. Depending on the type of know used, these can be effective and useful.
+
+An interesting, and perhaps surprising issues with knotting these harnesses is that the itself introduces a weakness to the material used. Of course in rocketry terms, the strength of the material is all important. The reason is that knots create curved regions of rope whose outer circumference is greater than the inner part. This difference in length creates stress across the rope’s width when put under tension, undermining its strength.
+
+An overhand knot will reduce the overall strength of a rope by > 50%!
+
+The technique shown here to splice these materials is borrowed from the sailing sector and - when done correctly - avoids adding any weakness to the material.
+
+This video shows working with large diameter material using a fid.
+
 ## Large Diameter Kevlar
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TYegFcY6ASU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Typically, we use smaller diameter material, which is **much** easier to work with. For this smaller material, we use a splicing needle rather than a fid.
 
 ## Smaller Diameter Kevlar
 
