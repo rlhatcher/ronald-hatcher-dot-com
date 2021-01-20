@@ -61,6 +61,12 @@ The overall design is provided here
 
 ![model](sim.jpg)
 
+The design is based on original drawings
+
+![Original fin design](./fins.jpg)
+
+![Brochure Drawing](bb3orig.png)
+
 ### Airframe
 
 The airframe is constructed from cardboard postal tubes 10" diameter and 3mm wall thickness. These tubes are wrapped in two layers of XXX fibreglass. The design uses two sections of airframe coupled together with an avionics bay. The aft section of the airframe is slotted to allow for "through the wall" mounting of the fins
@@ -69,7 +75,7 @@ The airframe is constructed from cardboard postal tubes 10" diameter and 3mm wal
 
 The fins are constructed using a core comprised of 3mm plywood laminted with carbon fibre. This core is "sandwiched" on both sides with 3mm plywood shaped to the profile of the original fin design shown here.
 
-![Original fin design](./fins.jpg)
+
 
 The complete fin assembly is then lamiminated with fibreglass. The Vacuum bagging technique is used for all fin lamination to ensure optimal epoxy/cloth ratios.
 
