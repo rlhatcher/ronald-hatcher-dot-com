@@ -20,12 +20,13 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include rocketry, software architecture.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Amateur Rocketry
+- Amateur Astronomy
+- Software Architecture
+- Radio Controlled Aircraft
 
 # education:
 #   courses:
