@@ -83,7 +83,11 @@ The initial design for the fins is provided here.
 
 ### Nocecone
 
-The nose cone is constructed using the method of shaping a foam core and wrapping with layers of fibreglass.
+The nose cone is constructed using 3d printed core, which is wrapped with layers of fibreglass. The thickness of the core is 3mm.
+
+Due to the limitations of build area, the core is printed in 9 pieces with a plate at the base of each. The plates and forward section have a 12.75mm hole to allow for a central rod for use in the fibreglassing process.
+
+![nosecone core](nosecone_core.png)
 
 ### Motor
 
