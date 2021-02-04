@@ -63,7 +63,7 @@ Materials
 |--- |---   |--- |
 | 5 | M6 connector nuts | [ToolStation](https://www.toolstation.com/connector-nut/p29740) |
 | 4 | M6 X 50mm Pan Head Machine Screws | [ScrewFix](https://www.screwfix.com/p/easyfix-bright-zinc-plated-pan-head-machine-screws-m6-x-50mm-25-pack/8253j_) |
-| 4 | M6 x 25mm Socket Cap Screws | [ToolStation](https://www.toolstation.com/connector-nut/p29740) |
+| 4 | M6 x 25mm Socket Cap Screws | [ToolStation](https://www.toolstation.com/stainless-steel-socket-cap-screw/p36417) |
 | 1 | M6 X 11 Eye Bolt | [Amazon](https://smile.amazon.co.uk/gp/product/B01M1IPKPA/) |
 
 ### Prepare the base
