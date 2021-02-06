@@ -51,7 +51,71 @@ gallery_item:
   image: bb2-nose-bay-finish/nose-bay-finish-2.jpeg
   caption: View from the coupler side
 
+- album: bb2-tail-parts
+  image: bb2-tail-parts/plate-1.jpeg
+  caption: Aft centring ring
+- album: bb2-tail-parts
+  image: bb2-tail-parts/plate-2.jpeg
+  caption: Thrust plate (back)
+- album: bb2-tail-parts
+  image: bb2-tail-parts/plate-3.jpeg
+  caption: Thrust plate with retainer
+- album: bb2-tail
+  image: bb2-tail/plate-4.jpeg
+  caption: Connector nut shortening
+- album: bb2-tail
+  image: bb2-tail/plate-5.jpeg
+  caption: Hardware
+- album: bb2-tail
+  image: bb2-tail/plate-6.jpeg
+  caption: Hardware installed (aft)
+- album: bb2-tail
+  image: bb2-tail/plate-7.jpeg
+  caption: Hardware installed (fwd)
+- album: bb2-tail
+  image: bb2-tail/plate-8.jpeg
+  caption: In the tail cone (fwd)
+- album: bb2-tail
+  image: bb2-tail/plate-9.jpeg
+  caption: In the tail cone (aft)
+
+- album: bb2-tail-bond
+  image: bb2-tail-bond/plate-10.jpeg
+  caption: In the tail cone (aft)
+- album: bb2-tail-bond
+  image: bb2-tail-bond/plate-11.jpeg
+  caption: In the tail cone (aft)
 ---
+
+## Introduction
+
+This build is based on the _old_ Rocketry Warehouse (not from Madcow Rocketry) 5.5" kit with some modifications. There is a 6" diameter equivalent that [Madcow still sell](https://www.madcowrocketry.com/6-fiberglass-black-brant-ii/). The included instructions are sparse but - to be fair - if you need detailed instructions for a kit of this type then it's probably not the right kit for you.
+
+![instructions](bb255diagram.jpg)
+
+We'll start from the ends of the build and work our way to the middle ...
+
+## Tailcone
+
+The tailcone section consists of the tailcone itself, a centring ring and a coupler. I also acquired a thrust plate from [SC Precision](https://scpconcepts.com/thrust-plates/), which required removing a small amount of the aft tailcone section to fit a 5" diameter plate.
+
+{{< gallery album="bb2-tail-parts" >}}
+
+The thrust plate is a beautifully machined part and allows for the attachment of the [Aeropack 75mm Flanged Motor Retainer](https://aeropack.net/motorretainers.asp)
+
+### Bolt it together
+
+The first step is to shorten the connector nuts to cater for the distance between the centring ring and thrust plate. Then use some M6 bolts through the ring and into the connector nuts. You can see from the images here that this allows for removal of the thrust plate once the ring is bonded to the tailcone.
+
+{{< gallery album="bb2-tail" >}}
+
+### Bonding
+
+We can now insert the assembly into the tailcone and bond in place. We need to make sure we get plenty of epoxy on the forward bolts inside since these will not be accessible after assembly and we definitely do not want these to loosen up!
+
+The aft side is also bonded in to the tailcone to provide a nice solid mount for the thrust plate.
+
+{{< gallery album="bb2-tail-bond" >}}
 
 ## Nose cone bay
 
