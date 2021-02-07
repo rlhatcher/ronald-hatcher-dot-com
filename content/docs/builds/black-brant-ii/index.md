@@ -53,7 +53,7 @@ gallery_item:
 
 - album: bb2-tail-parts
   image: bb2-tail-parts/plate-1.jpeg
-  caption: Aft centring ring
+  caption: Aft centering ring
 - album: bb2-tail-parts
   image: bb2-tail-parts/plate-2.jpeg
   caption: Thrust plate (back)
@@ -97,7 +97,7 @@ gallery_item:
   caption: Mounts installed AFT
 - album: bb2-fwd-cr-prep
   image: bb2-fwd-cr-prep/fwd-cr-4.jpeg
-  caption: Mounts inslalled FWD
+  caption: Mounts installed FWD
 - album: bb2-fwd-cr-prep
   image: bb2-fwd-cr-prep/fwd-cr-5.jpeg
   caption: The original CR
@@ -118,6 +118,21 @@ gallery_item:
   image: bb2-fwd-cr-bond/fwd-cr-10.jpeg
   caption: The original CR
 
+- album: bb2-motor-mount
+  image: bb2-motor-mount/motor-1.jpeg
+  caption: Bonded to the AFT CR
+- album: bb2-motor-mount
+  image: bb2-motor-mount/motor-2.jpeg
+  caption: The AFT Assembly
+- album: bb2-motor-mount
+  image: bb2-motor-mount/motor-3.jpeg
+  caption: Epoxy the tailcone
+- album: bb2-motor-mount
+  image: bb2-motor-mount/motor-4.jpeg
+  caption: Bond the AFT coupler
+- album: bb2-motor-mount
+  image: bb2-motor-mount/motor-5.jpeg
+  caption: Fillet the tailcone coupler
 ---
 
 ## Introduction
@@ -138,7 +153,7 @@ Materials
 | 3 | Countersunk Socket Screws M5 X 16  | [ScrewFix](https://www.screwfix.com/p/easyfix-countersunk-head-socket-screws-a2-stainless-steel-m5-x-16mm-50-pack/5982t) |
 | 3 | Set Screws M5 X 10MM | [ScrewFix](https://www.screwfix.com/p/easyfix-bzp-steel-set-screws-m5-x-10mm-100-pack/3530h) |
 
-The tailcone section consists of the tailcone itself, a centring ring and a coupler. I also acquired a thrust plate from [SC Precision](https://scpconcepts.com/thrust-plates/), which required removing a small amount of the aft tailcone section to fit a 5" diameter plate.
+The tailcone section consists of the tailcone itself, a centering ring and a coupler. I also acquired a thrust plate from [SC Precision](https://scpconcepts.com/thrust-plates/), which required removing a small amount of the aft tailcone section to fit a 5" diameter plate.
 
 {{< gallery album="bb2-tail-parts" >}}
 
@@ -146,7 +161,7 @@ The thrust plate is a beautifully machined part and allows for the attachment of
 
 ### Bolt it together
 
-The first step is to shorten the connector nuts to cater for the distance between the centring ring and thrust plate. Then use some M6 bolts through the ring and into the connector nuts. You can see from the images here that this allows for removal of the thrust plate once the ring is bonded to the tailcone.
+The first step is to shorten the connector nuts to cater for the distance between the centering ring and thrust plate. Then use some M6 bolts through the ring and into the connector nuts. You can see from the images here that this allows for removal of the thrust plate once the ring is bonded to the tailcone.
 
 {{< gallery album="bb2-tail" >}}
 
@@ -217,7 +232,7 @@ Unless you can drill the mounting holes _exactly_ distanced, which I am not able
 
 ## Forward CR
 
-The forward centring ring is modified here to support two mounts and bonded just forward of the fin slots.
+The forward centering ring is modified here to support two mounts and bonded just forward of the fin slots.
 
 Materials
 
@@ -246,5 +261,16 @@ Remove the CR and apply epoxy to the airframe where the CR will be bonded and in
 
 Once cured, we can epoxy the AFT side fo the CR, making sure to get the nuts and washers nicely covered so they don't move ... ever.
 
-
 {{< gallery album="bb2-fwd-cr-bond" >}}
+
+## Motor Mount
+
+### Aft Assembly
+
+At this point, we prepare the AFT assembly for bonding to the main airframe.
+
+Keeping the thrust plate and motor retainer in place, we insert the motor mount so it will be in the right position after bonding. Get a good fillet of epoxy on the motor mount/AFT centering ring.
+
+Once cured, we apply a good amount of epoxy around the inside edge of the tailcone and insert the coupler. Once inserted, clean up and make a nice fillet on the couple and tailcone.
+
+{{< gallery album="bb2-motor-mount" >}}
