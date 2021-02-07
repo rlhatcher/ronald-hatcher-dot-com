@@ -85,6 +85,39 @@ gallery_item:
 - album: bb2-tail-bond
   image: bb2-tail-bond/plate-11.jpeg
   caption: In the tail cone (aft)
+
+- album: bb2-fwd-cr-prep
+  image: bb2-fwd-cr-prep/fwd-cr-1.jpeg
+  caption: The original CR
+- album: bb2-fwd-cr-prep
+  image: bb2-fwd-cr-prep/fwd-cr-2.jpeg
+  caption: Extra mount drilled
+- album: bb2-fwd-cr-prep
+  image: bb2-fwd-cr-prep/fwd-cr-3.jpeg
+  caption: Mounts installed AFT
+- album: bb2-fwd-cr-prep
+  image: bb2-fwd-cr-prep/fwd-cr-4.jpeg
+  caption: Mounts inslalled FWD
+- album: bb2-fwd-cr-prep
+  image: bb2-fwd-cr-prep/fwd-cr-5.jpeg
+  caption: The original CR
+
+- album: bb2-fwd-cr-bond
+  image: bb2-fwd-cr-bond/fwd-cr-6.jpeg
+  caption: The original CR
+- album: bb2-fwd-cr-bond
+  image: bb2-fwd-cr-bond/fwd-cr-7.jpeg
+  caption: The original CR
+- album: bb2-fwd-cr-bond
+  image: bb2-fwd-cr-bond/fwd-cr-8.jpeg
+  caption: The original CR
+- album: bb2-fwd-cr-bond
+  image: bb2-fwd-cr-bond/fwd-cr-9.jpeg
+  caption: The original CR
+- album: bb2-fwd-cr-bond
+  image: bb2-fwd-cr-bond/fwd-cr-10.jpeg
+  caption: The original CR
+
 ---
 
 ## Introduction
@@ -96,6 +129,14 @@ This build is based on the _old_ Rocketry Warehouse (not from Madcow Rocketry) 5
 We'll start from the ends of the build and work our way to the middle ...
 
 ## Tailcone
+
+Materials
+
+|Qty | Item | Source |
+|--- |---   |--- |
+| 3 | M5 connector nuts | [ToolStation](https://www.toolstation.com/stainless-steel-connector-nut/p28559) |
+| 3 | Countersunk Socket Screws M5 X 16  | [ScrewFix](https://www.screwfix.com/p/easyfix-countersunk-head-socket-screws-a2-stainless-steel-m5-x-16mm-50-pack/5982t) |
+| 3 | Set Screws M5 X 10MM | [ScrewFix](https://www.screwfix.com/p/easyfix-bzp-steel-set-screws-m5-x-10mm-100-pack/3530h) |
 
 The tailcone section consists of the tailcone itself, a centring ring and a coupler. I also acquired a thrust plate from [SC Precision](https://scpconcepts.com/thrust-plates/), which required removing a small amount of the aft tailcone section to fit a 5" diameter plate.
 
@@ -173,3 +214,37 @@ Unless you can drill the mounting holes _exactly_ distanced, which I am not able
 {{% /callout %}}
 
 {{< gallery album="bb2-nose-bay-finish" >}}
+
+## Forward CR
+
+The forward centring ring is modified here to support two mounts and bonded just forward of the fin slots.
+
+Materials
+
+|Qty | Item | Source |
+|--- |---   |--- |
+| 2  | M6 X 11 Eye Bolt | [Amazon](https://smile.amazon.co.uk/gp/product/B01M1IPKPA/) |
+| 2 | M6 Steel Nut | [ToolStation](https://www.toolstation.com/stainless-steel-nut/p30317) |
+| 2 | M6 Washer | |
+| 2 | M6 Lock Washer | |
+
+### Prep the CR
+
+The original CR has one hole drilled for a mount point, so we need to drill another 6mm hole directly across from the original.
+
+We then attach two M6 eye bolts using an M6 nut, M6 Washer and an M6 lock washer.
+
+At this point, we can attach the y-harness directly to the eye bolts. See my [Post on Splicing](/post/splicing) on how I do this.
+
+{{< gallery album="bb2-fwd-cr-prep" >}}
+
+### Bond the CR
+
+We want the CR to be positioned just above the fin slots so we dry fit the CR to make sure we have a good fit and gently sand if required.
+
+Remove the CR and apply epoxy to the airframe where the CR will be bonded and insert into the airframe making sure is nice and square. Make a nice fillet on the FWD side of the CR and allow the epoxy to cure.
+
+Once cured, we can epoxy the AFT side fo the CR, making sure to get the nuts and washers nicely covered so they don't move ... ever.
+
+
+{{< gallery album="bb2-fwd-cr-bond" >}}
