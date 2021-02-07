@@ -118,21 +118,94 @@ gallery_item:
   image: bb2-fwd-cr-bond/fwd-cr-10.jpeg
   caption: The original CR
 
-- album: bb2-motor-mount
-  image: bb2-motor-mount/motor-1.jpeg
+- album: bb2-mmt-aft
+  image: bb2-mmt-aft/motor-1.jpeg
   caption: Bonded to the AFT CR
-- album: bb2-motor-mount
-  image: bb2-motor-mount/motor-2.jpeg
+- album: bb2-mmt-aft
+  image: bb2-mmt-aft/motor-2.jpeg
   caption: The AFT Assembly
-- album: bb2-motor-mount
-  image: bb2-motor-mount/motor-3.jpeg
+- album: bb2-mmt-aft
+  image: bb2-mmt-aft/motor-3.jpeg
   caption: Epoxy the tailcone
-- album: bb2-motor-mount
-  image: bb2-motor-mount/motor-4.jpeg
+- album: bb2-mmt-aft
+  image: bb2-mmt-aft/motor-4.jpeg
   caption: Bond the AFT coupler
-- album: bb2-motor-mount
-  image: bb2-motor-mount/motor-5.jpeg
+- album: bb2-mmt-aft
+  image: bb2-mmt-aft/motor-5.jpeg
   caption: Fillet the tailcone coupler
+
+- album: bb2-mmt-bond
+  image: bb2-mmt-bond/motor-6.jpeg
+  caption: Mid CR in place
+- album: bb2-mmt-bond
+  image: bb2-mmt-bond/motor-7.jpeg
+  caption: Mid CR in place
+- album: bb2-mmt-bond
+  image: bb2-mmt-bond/motor-8.jpeg
+  caption: Mid CR in place
+- album: bb2-mmt-bond
+  image: bb2-mmt-bond/motor-9.jpeg
+  caption: Mid CR in place
+- album: bb2-mmt-bond
+  image: bb2-mmt-bond/motor-10.jpeg
+  caption: Mid CR in place
+- album: bb2-mmt-bond
+  image: bb2-mmt-bond/motor-11.jpeg
+  caption: Mid CR in place
+
+- album: bb2-fins
+  image: bb2-fins/fins-1.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-2.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-3.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-4.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-5.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-6.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-7.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-8.jpeg
+  caption: The slots
+- album: bb2-fins
+  image: bb2-fins/fins-9.jpeg
+  caption: The slots
+
+- album: bb2-fillets
+  image: bb2-fillets/fillets-1.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-2.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-3.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-4.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-5.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-6.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-7.jpeg
+  caption: The slots
+- album: bb2-fillets
+  image: bb2-fillets/fillets-8.jpeg
+  caption: The slots
+
 ---
 
 ## Introduction
@@ -214,7 +287,7 @@ The base is now mounted into the nose cone / payload bay coupler by
   * cover with baking parchment to allow removal
   * clip in place to ensure the fibreglass wraps around the bolt
 
-The result is difficult to see in the photos, but the bolts and connector nuts are secured to the inside fo the coupler
+The result is difficult to see in the photos, but the bolts and connector nuts are secured to the inside of the coupler
 
 {{< gallery album="bb2-nose-bay-mount" >}}
 
@@ -273,4 +346,26 @@ Keeping the thrust plate and motor retainer in place, we insert the motor mount 
 
 Once cured, we apply a good amount of epoxy around the inside edge of the tailcone and insert the coupler. Once inserted, clean up and make a nice fillet on the couple and tailcone.
 
-{{< gallery album="bb2-motor-mount" >}}
+{{< gallery album="bb2-mmt-aft" >}}
+
+### Mount Bonding
+
+For the final motor mount steps, the mid CR needs to go onto the motor mount and epoxy applied to the mount where the forward CR will attach. We also apply epoxy to the aft inner airframe for the mid CR as well as the tail cone coupler. I use [rocket poxy](https://www.glenmarc.com/datasheets/EPOXY/RP_G5000_DATASHEET.pdf) so have plenty of time to perform this operation.
+
+The aft assembly is inserted into the airframe and through the fwd cr. The mid CR is inserted just behind the aft of the fin slots and more epoxy is then applied to the motor mount and inside aft airframe.
+
+The entire aft assembly is then completely inserted making sure the mid CR is _still_ aft of the fin slots and the tailcone coupler is completely engaged.
+
+The whole aft airframe can now be place vertically while the epoxy cures.
+
+{{< gallery album="bb2-mmt-bond" >}}
+
+## Fins
+
+### Mounting
+
+{{< gallery album="bb2-fins" >}}
+
+### Fillets
+
+{{< gallery album="bb2-fillets" >}}

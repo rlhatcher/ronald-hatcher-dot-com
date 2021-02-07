@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Black Brant II"
 summary: ""
 authors: []
@@ -42,4 +40,4 @@ slides: ""
 
 The Black Brant II was a very successful sounding rocket produced by the Canadian Armament Research and Development Establishment (CARDE) beginning 1960. This is my build of a 5.5" diameter model of the three fin version.
 
-[Build info](/docs/builds/black-brant-ii/black-brant-ii/)
+[Build info](/docs/builds/black-brant-ii/)
