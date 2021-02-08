@@ -210,7 +210,7 @@ gallery_item:
 
 ## Introduction
 
-This build is based on the _old_ Rocketry Warehouse (not from Madcow Rocketry) 5.5" kit with some modifications. There is a 6" diameter equivalent that [Madcow still sell](https://www.madcowrocketry.com/6-fiberglass-black-brant-ii/). The included instructions are sparse but - to be fair - if you need detailed instructions for a kit of this type then it's probably not the right kit for you.
+This build is based on the _old_ Rocketry Warehouse (now from [Madcow Rocketry](https://www.madcowrocketry.com/)) 5.5" kit with some modifications. There is a 6" diameter equivalent that [Madcow still sell](https://www.madcowrocketry.com/6-fiberglass-black-brant-ii/). The included instructions are sparse but - to be fair - if you need detailed instructions for a kit of this type then it's probably not the right kit for you.
 
 ![instructions](bb255diagram.jpg)
 
@@ -369,3 +369,5 @@ The whole aft airframe can now be place vertically while the epoxy cures.
 ### Fillets
 
 {{< gallery album="bb2-fillets" >}}
+
+## AV Bay
