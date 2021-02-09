@@ -25,7 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [ejection-charges, black-brant-ii]
+projects: [ejection-charges]
 ---
 
 There are many approaches to managing ejection charges for deployment ranging from rubber glove tips to machined cups. I prefer to use centrigfuge tubes, where I cut a small hole in the bottom for the e-match wires and the clip-shut cap makes sure that no powder escapes.
