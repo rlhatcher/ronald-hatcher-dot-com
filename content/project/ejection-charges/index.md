@@ -39,3 +39,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+{{< gallery album="bb2-av-blk" >}}
