@@ -7,6 +7,7 @@ summary: ""
 authors: []
 tags: []
 categories: []
+downloads: ["/media/stl/charge_well.stl"]
 date: 2021-02-09T11:02:45Z
 lastmod: 2021-02-09T11:02:45Z
 featured: false
