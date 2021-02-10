@@ -1,13 +1,9 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Charge Well"
-subtitle: ""
-summary: ""
 authors: []
 tags: []
 categories: []
-downloads: ["/media/stl/charge_well.stl"]
+plugins: ["threejs", "stlviewer"]
 date: 2021-02-09T11:02:45Z
 lastmod: 2021-02-09T11:02:45Z
 featured: false
@@ -29,7 +25,9 @@ image:
 projects: [ejection-charges]
 ---
 
-There are many approaches to managing ejection charges for deployment ranging from rubber glove tips to machined cups. I prefer to use centrigfuge tubes, where I cut a small hole in the bottom for the e-match wires and the clip-shut cap makes sure that no powder escapes.
+There are many approaches to managing ejection charges for deployment ranging from rubber glove tips to machined cups. I prefer to use centrifuge tubes, where I cut a small hole in the bottom for the e-match wires and the clip-shut cap makes sure that no powder escapes.
+
+<div class="stlviewer" data-src="/media/stl/chargewell/charge_well.stl" data-rotate="x" data-zdistance="2"></div>
 
 I have desinged a 3D printable holder for these tubes - both the smaller 1.5ml and larger 5ml sizes.
 
