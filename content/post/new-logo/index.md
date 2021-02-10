@@ -5,7 +5,7 @@ date: 2021-02-10T15:35:14.941Z
 draft: false
 featured: false
 image:
-  filename: jack-coffee-decal.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
