@@ -24,6 +24,11 @@ image:
 #   Otherwise, set `projects = []`.
 projects: [ejection-charges]
 ---
+<script type="text/javascript">
+        window.onload = function () {
+            STLViewerEnable("stlviewer");
+        }
+</script>
 
 There are many approaches to managing ejection charges for deployment ranging from rubber glove tips to machined cups. I prefer to use centrifuge tubes, where I cut a small hole in the bottom for the e-match wires and the clip-shut cap makes sure that no powder escapes.
 
