@@ -40,7 +40,7 @@ This video shows working with large diameter material using a fid.
 
 ## Large Diameter Kevlar
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TYegFcY6ASU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube TYegFcY6ASU >}}
 
 Typically, we use smaller diameter material, which is **much** easier to work with. For this smaller material, we use a splicing needle rather than a fid.
 
