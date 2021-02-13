@@ -40,7 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-The [JPL](https://www.jpl.nasa.gov/) Open Source rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. I have recently completed the build of this rover, which was rally a challenge! Interestingly, the software was one fo the more challenging aspects of the build, which was unexpected since I've been working with software for more that 30 years!
+The [JPL](https://www.jpl.nasa.gov/) Open Source rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. I have recently completed the build of this rover, which was rally a challenge! Interestingly, the software was one of the more challenging aspects of the build, which was unexpected since I've been working with software for more than 30 years!
 
 The build is pretty well [documented](https://github.com/nasa-jpl/open-source-rover) but I did run across a few bumps in the road.
 

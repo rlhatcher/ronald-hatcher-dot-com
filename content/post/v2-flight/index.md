@@ -56,6 +56,8 @@ gallery_item:
 
 Due to the COVID-19 lockdowns and other restrictions, we only had one opportunity to launch in 2020; very sad. Thankfully, the annual Midland Sky launch weekend was able to go ahead due the hard work of Paul and the other MRC people. It was a fantastic weekend!
 
+{{< youtube MOmUOZx0AAc >}}
+
 While the [build details](/docs/builds/v2) are still under construction, here are some photos of the launch itself - it was quite spectacular.
 
 {{< gallery album="v2-flight" >}}
