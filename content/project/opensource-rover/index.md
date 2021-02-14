@@ -44,6 +44,8 @@ The [JPL](https://www.jpl.nasa.gov/) Open Source rover is an open source, build 
 
 The build is pretty well [documented](https://github.com/nasa-jpl/open-source-rover) but I did run across a few bumps in the road.
 
+{{< youtube Vp9dJ5upceo >}}
+
 For convenience, the table here provides the overall specifications
 
 | Attribute              |Value [imp] | Value [SI] |
