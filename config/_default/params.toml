@@ -14,6 +14,7 @@
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
 theme = "ron_theme"
+i_am_a_sponsor = true
 
 # Enable users to switch between day and night mode?
 day_night = false
@@ -303,5 +304,3 @@ plugins_js  = [
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
-
-i_am_a_sponsor = true
