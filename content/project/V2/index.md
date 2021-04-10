@@ -60,3 +60,9 @@ The flight is interesting for several reasons - not the least of which being the
 Interestingly, the tail art sports a V-2 in the American yellow and black roll pattern and the number 2. The German scientists didn't count static firing as a "real" launch so in their minds this was technically rocket number 2. The tail art is somewhat "spicy" but much in keeping with the long standing tradition.
 
 {{< figure src="pinup_detail.jpg" title="Tail Art Detail">}}
+
+## Temporary Image Gallery
+
+Until I get time to do the build docs for this one, these are the - unarranged - photos
+
+{{< gallery album="gallery" >}}
