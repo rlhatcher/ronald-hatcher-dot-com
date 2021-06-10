@@ -29,7 +29,7 @@ There are many approaches to managing ejection charges for deployment ranging fr
 
 <div class="stlviewer" data-src="/media/stl/chargewell/charge_well.stl" data-rotate="x" data-zdistance="2"></div>
 
-I have desinged a 3D printable holder for these tubes - both the smaller 1.5ml and larger 5ml sizes.
+I have designed a 3D printable holder for these tubes - both the smaller 1.5ml and larger 5ml sizes.
 
 The design comprises 3 parts
 

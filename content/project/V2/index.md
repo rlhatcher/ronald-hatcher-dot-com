@@ -45,7 +45,9 @@ The White Sands V-2 Launching Site, or Launch Complex 33, was developed specific
 
 The American government in [Operation Paperclip](https://en.wikipedia.org/wiki/Operation_Paperclip) captured more than 100 V-2 rockets and numerous German scientists and engineers associated with the V-2 development program, including Dr. Werner Von Braun. The Army brought Dr. Von Braun and the captured V-2s to the newly opened White Sands Missile Range.
 
-I have [built a version](/docs/builds/v2) based on the White Sands Number 3 rocket.
+I have [built a version](/docs/builds/v2) based on the White Sands Number 3 rocket based on the Loc V2 Kit.
+
+I have created a [Rocksim File](./Loc-75-V2.rkt) based on specific measurements/weights as the build progressed.
 
 Rocket number 1 was statically fired on 15 March 1946 and rocket number 2 was launched on 16 April 1946. The radio cut-off 19.5s after launch, Fin 4 failed prior to cut off and the flight was considered unsuccessful reaching an altitude of 5.5 km.
 
