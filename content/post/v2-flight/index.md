@@ -27,31 +27,6 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 
-gallery_item:
-- album: v2-flight
-  image: v2-flight/MRC-2020-07.jpg
-  caption: Dalton & I
-- album: v2-flight
-  image: v2-flight/MRC-2020-08.jpg
-  caption: Igniter in
-- album: v2-flight
-  image: v2-flight/MRC-2020-09.jpg
-  caption: On the pad
-- album: v2-flight
-  image: v2-flight/MRC-2020-10.jpg
-  caption: Lift-off
-- album: v2-flight
-  image: v2-flight/MRC-2020-11.jpg
-  caption: Power
-- album: v2-flight
-  image: v2-flight/MRC-2020-12.jpg
-  caption: She's Away
-- album: v2-flight
-  image: v2-flight/MRC-2020-13.jpg
-  caption: Sparks!
-- album: v2-flight
-  image: v2-flight/MRC-2020-14.jpg
-  caption: Chute out and safe
 ---
 
 Due to the COVID-19 lockdowns and other restrictions, we only had one opportunity to launch in 2020; very sad. Thankfully, the annual Midland Sky launch weekend was able to go ahead due the hard work of Paul and the other MRC people. It was a fantastic weekend!

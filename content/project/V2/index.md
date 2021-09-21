@@ -67,4 +67,4 @@ Interestingly, the tail art sports a V-2 in the American yellow and black roll p
 
 Until I get time to do the build docs for this one, these are the - unarranged - photos
 
-{{< gallery album="gallery" >}}
+{{< gallery album="V2" >}}
